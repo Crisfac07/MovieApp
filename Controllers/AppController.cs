@@ -15,18 +15,28 @@ namespace MovieApp.Controllers
             return View(_movie);
         }
 
-        public IActionResult AddOrEdit()
+        public IActionResult AddOrEdit(Guid id)
         {
-            return View();
+            var movie = _movie.FirstOrDefault(x=> x.Id== id);
+            return View(movie);
         }
 
         [HttpPost]
         public IActionResult AddOrEdit(MovieViewModel model)
         {
+            var movie = _movie.FirstOrDefault(x=> x.Id==model.Id);
             if (ModelState.IsValid)
             {
-                model.Id = Guid.NewGuid();
-                _movie.Add(model);
+                if (movie == null)
+                {
+                    model.Id = Guid.NewGuid();
+                    _movie.Add(model);
+                    
+                }
+                else {
+                    movie.Name = model.Name;
+                    movie.Genre = model.Genre;
+                }
                 return RedirectToAction(nameof(Index));
             }
             return View();
