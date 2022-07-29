@@ -33,10 +33,10 @@ namespace MovieApp
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapAreaControllerRoute(
-                    name:"Default",
-                    pattern:"{controller}/{action}/{id?}",
-                    defaults: new {controller="App", action="Index" }
+                endpoints.MapControllerRoute(
+                    name: "Default",
+                    pattern: "{controller}/{action}/{id?}",
+                    defaults: new { controller = "App", action = "Index" }
                     );
             });
         }
