@@ -12,5 +12,16 @@ namespace MovieApp.Controllers
         {
             return View();
         }
+
+        public IActionResult AddOrEdit()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddOrEdit(Guid id)
+        {
+            return View();
+        }
     }
 }

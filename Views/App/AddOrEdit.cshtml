@@ -1,0 +1,23 @@
+﻿@model MovieViewModel
+@{
+    ViewBag.Title = "Agregar";
+}
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Nombre</label>
+        <br />
+        <input type="text" asp-for="Name" class="form-control"/>
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Genre" class="form-label">Genero</label>
+        <br />
+        <input type="text" asp-for="Genre" class="form-control"/>
+        <span asp-validation-for="Genre"></span>
+        <br />
+    </div>
+        <input type="submit" name="Aceptar" class="btn btn-primary" />
+
+</form>
+
