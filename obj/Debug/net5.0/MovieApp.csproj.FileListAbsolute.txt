@@ -98,3 +98,13 @@ C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\bin\Debug
 C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.csproj.CopyComplete
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\bin\Debug\net5.0\MovieApp.Views.dll
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\bin\Debug\net5.0\MovieApp.Views.pdb
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.RazorAssemblyInfo.cache
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.RazorAssemblyInfo.cs
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.TagHelpers.input.cache
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.TagHelpers.output.cache
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.RazorCoreGenerate.cache
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\Razor\Views\App\Index.cshtml.g.cs
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.RazorTargetAssemblyInfo.cs
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.Views.pdb
