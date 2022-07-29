@@ -1,6 +1,30 @@
-﻿@{
-    
+﻿@model List<MovieViewModel>
+@{
+    ViewBag.Title = "Inicio";
 }
 
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Genero</th>
+            <th>Id</th>
+            <th>Eliminar</th>
+            <th>Editar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Genre</td>
+                <td>@item.Id</td>
+                <td><a asp-controller="App" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a></td>
+                <td><a asp-controller="App" asp-action="AddOrEdit" asp-route-id="@item.Id" class="btn btn-danger">Editar</a></td>
+            </tr>
+        }
+    </tbody>
 
-
+    <td><a asp-controller="App" asp-action="AddOrEdit" class="btn btn-danger">Agregar</a></td>
+</table>

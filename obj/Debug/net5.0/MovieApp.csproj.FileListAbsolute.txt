@@ -108,3 +108,6 @@ C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug
 C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\Razor\Views\App\Index.cshtml.g.cs
 C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.RazorTargetAssemblyInfo.cs
 C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\MovieApp.Views.pdb
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\Razor\Views\App\_ViewStart.cshtml.g.cs
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\franc\OneDrive\Escritorio\UDEMY\curso NET CORE 5\MVC\MovieApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
