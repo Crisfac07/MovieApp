@@ -27,6 +27,9 @@ namespace MovieApp
             {
                 app.UseDeveloperExceptionPage();
             }
+            else {
+                app.UseExceptionHandler("/error");
+            }
             
 
             app.UseRouting();
